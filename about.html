@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>AWOKAWOK</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        font-family: "Philosopher", sans-serif;
+        background-color: #ffffff;
+        background-image: url("mondstad.jpg"); /* Set your background image here */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+      }
+
+      .content-wrapper {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+      }
+
+      header,
+      nav,
+      main,
+      footer {
+        color: #fff;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        width: 100%;
+      }
+
+      header {
+        background: url("Headerimg.png") no-repeat center center/cover;
+        padding: 40px 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      header h1 {
+        position: relative;
+        z-index: 1;
+        font-size: 36px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7),
+          -2px -2px 4px rgba(0, 0, 0, 0.7), 2px -2px 4px rgba(0, 0, 0, 0.7),
+          -2px 2px 4px rgba(0, 0, 0, 0.7);
+      }
+
+      nav {
+        background-color: #444;
+        padding: 10px 20px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      nav a:hover {
+        color: #ddd; /* Add a hover effect */
+      }
+
+      main {
+        padding: 20px;
+        flex: 1;
+      }
+
+      footer {
+        background-color: #171717;
+        padding: 10px 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .philosopher-bold {
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .about-text {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+        text-indent: 20px; /* Adding depth to the text */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header>
+        <h1>Welcome Travelers</h1>
+      </header>
+
+      <nav>
+        <a href="Index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="content.html">Content</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <main class="philosopher-bold">
+        <h2>Section Title</h2>
+        <p class="about-text">
+          Selamat datang di situs web kami, yang dibuat sebagai bagian dari
+          proyek sekolah yang didedikasikan untuk menjelajahi dunia luas Genshin
+          Impact. Di sini, kami menyelami lore yang rumit, karakter yang
+          memikat, dan mekanisme permainan yang menarik yang mendefinisikan RPG
+          aksi open-world yang populer ini. Misi kami adalah untuk memberikan
+          pemahaman yang komprehensif tentang alam semesta Genshin, mulai dari
+          cerita yang kaya hingga pengalaman bermain yang mendalam. Melalui
+          penjelasan dan wawasan yang rinci, kami bertujuan untuk mengungkap
+          misteri Teyvat dan memandu sesama pelancong dalam perjalanan mereka
+          melalui dunia yang mempesona ini. Bergabunglah bersama kami saat kami
+          memulai petualangan untuk mengungkap rahasia dan keajaiban Genshin
+          Impact.
+        </p>
+      </main>
+
+      <footer>
+        <p>Hizkia 10_3</p>
+      </footer>
+    </div>
+  </body>
+</html>
